@@ -1,2 +1,2 @@
-# spring-kotlin :green-book:
+# spring-kotlin :book:
 Estudo de spring-boot com kotlin
