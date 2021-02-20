@@ -3,7 +3,7 @@ POST http://localhost:8080/accounts
 Content-Type: application/json
 {
     "name":"Wanderlei",
-    "document":"123"
+    "document":"1"
 }
 
 ### R - Read
@@ -15,10 +15,10 @@ PUT http://localhost:8080/accounts/123
 Content-Type: application/json
 {
     "name":"Wanderlei Magri",
-    "document":"123",
+    "document":"1",
     "balance":"100"
 }
 
 # D - Delete
-DELETE http://localhost:8080/accounts/123
+DELETE http://localhost:8080/accounts/1
 Content-Type: application/json
