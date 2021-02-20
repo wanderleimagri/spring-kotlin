@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class BankaccountApplication
+class SpringkotlinApplication
 
 fun main(args: Array<String>) {
-	runApplication<BankaccountApplication>(*args)
+    runApplication<SpringkotlinApplication>(*args)
 }
