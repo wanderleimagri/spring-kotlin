@@ -9,8 +9,8 @@ Project development with spring-boot and kotlin for study of language
 ---
 
 ## ⚙ Settings
-
-Install the wsl2 docker on windows. Tutorial used for installation of docker with wsl2: https://github.com/codeedu/wsl2-docker-quickstart
+  Install the wsl2 docker on windows. 
+   - Tutorial used for installation of docker with wsl2: https://github.com/codeedu/wsl2-docker-quickstart
 ---
 
 ## 💻 Technologies
@@ -19,7 +19,7 @@ Install the wsl2 docker on windows. Tutorial used for installation of docker wit
 - PostgreSQL
 - Docker  
 - Gradle
- ---
+---
  
 ## 🚀 How to run
   ### Cloning repository
@@ -35,17 +35,17 @@ Install the wsl2 docker on windows. Tutorial used for installation of docker wit
   * --force-recreate = recreate containers even if their configuration and image haven't changed
   
   #### Get (all)
-  http://localhost:8080/accounts
+    http://localhost:8080/accounts
   
   #### Post
-  http://localhost:8080/accounts
+    http://localhost:8080/accounts
     body(json) = {
        "name":"Pedro",
        "document":"4"
     }
   
   #### Put
-  http://localhost:8080/accounts/1
+    http://localhost:8080/accounts/1
       body(json) = {
         "name":"wanderlei magri",
         "document":"1",
@@ -53,6 +53,6 @@ Install the wsl2 docker on windows. Tutorial used for installation of docker wit
       }
       
   #### Delete
-  http://localhost:8080/accounts/2
+    http://localhost:8080/accounts/2
   
 
