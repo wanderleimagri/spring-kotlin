@@ -28,8 +28,9 @@ Project development with spring-boot and kotlin for study of language
   ### Accessing web project
   cd spring-kotlin
   
-  ### Running web project
-  run in the terminal: docker-compose up --build --force-recreate
+  ### Running web project (in the terminal)
+    docker-compose up --build --force-recreate
+    
   * docker-compose up = start all services and images defined in the .yml file
   * --build = builds images before starting container
   * --force-recreate = recreate containers even if their configuration and image haven't changed
