@@ -1,23 +1,27 @@
-Spring-kotlin :book:
+## Spring-kotlin :book:
+
 Project development with spring-boot and kotlin for study of language 
 
-📌 Index
-⚙ Settings
-💻 Technologies
-🚀 How to run
+## 📌 Index
+- ⚙ [Settings](#-settings)
+- 💻 [Technologies](#-technologies)
+- 🚀 [How to run](#-how-to-run)
+---
 
-⚙ Settings
+##⚙ Settings
 Install the wsl2 docker on windows.
 Tutorial used for installation of docker with wsl2: https://github.com/codeedu/wsl2-docker-quickstart
+---
 
-💻 Technologies
+##💻 Technologies
 - Kotlin
 - Spring Boot
 - PostgreSQL
 - Docker  
 - Gradle
-      
-🚀 How to run
+ ---
+ 
+##🚀 How to run
   # Cloning repository
   https://github.com/wanderleimagri/spring-kotlin.git
 
