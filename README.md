@@ -8,12 +8,12 @@ Project development with spring-boot and kotlin for study of language
 - 🚀 [How to run](#-how-to-run)
 ---
 
-##⚙ Settings
-Install the wsl2 docker on windows.
-Tutorial used for installation of docker with wsl2: https://github.com/codeedu/wsl2-docker-quickstart
+## ⚙ Settings
+
+Install the wsl2 docker on windows. Tutorial used for installation of docker with wsl2: https://github.com/codeedu/wsl2-docker-quickstart
 ---
 
-##💻 Technologies
+## 💻 Technologies
 - Kotlin
 - Spring Boot
 - PostgreSQL
@@ -21,30 +21,30 @@ Tutorial used for installation of docker with wsl2: https://github.com/codeedu/w
 - Gradle
  ---
  
-##🚀 How to run
-  # Cloning repository
+## 🚀 How to run
+  ### Cloning repository
   https://github.com/wanderleimagri/spring-kotlin.git
 
-  # Accessing web project
+  ### Accessing web project
   cd spring-kotlin
   
-  # Running web project
+  ### Running web project
   run in the terminal: docker-compose up --build --force-recreate
   * docker-compose up = start all services and images defined in the .yml file
   * --build = builds images before starting container
   * --force-recreate = recreate containers even if their configuration and image haven't changed
   
-  Get (all)
+  #### Get (all)
   http://localhost:8080/accounts
   
-  Post
+  #### Post
   http://localhost:8080/accounts
     body(json) = {
        "name":"Pedro",
        "document":"4"
     }
   
-  Put
+  #### Put
   http://localhost:8080/accounts/1
       body(json) = {
         "name":"wanderlei magri",
@@ -52,7 +52,7 @@ Tutorial used for installation of docker with wsl2: https://github.com/codeedu/w
         "balance":"100"
       }
       
-  Delete
+  #### Delete
   http://localhost:8080/accounts/2
   
 
